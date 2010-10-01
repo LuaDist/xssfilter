@@ -1,0 +1,14 @@
+--- This file is part of LuaDist projecte
+
+name = "xssfilter"
+version = "9.02.15"
+
+desc = "A filter to prevernt cross-site scripting (XSS) attacks"
+author = "Yuri Takhteyev"
+license = "MIT/X11"
+url = "http://spu.tnik.org/lib/xssfilter/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1",
+}
