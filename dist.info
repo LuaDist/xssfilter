@@ -1,0 +1,32 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Yuri Takhteyev"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "A filter to prevernt cross-site scripting (XSS) attacks"
+version = "9.02.15"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib/lua/xssfilter.lua]],
+}
+,
+Documentation = {
+[[share/xssfilter/doc//howto.txt]],
+[[share/xssfilter/doc//xssfilter.png]],
+[[share/xssfilter/doc//releases.rss]],
+[[share/xssfilter/doc//index.html]],
+[[share/xssfilter/doc//xssfilter-shortcut.png]],
+}
+,
+Data = {
+[[share/xssfilter/LICENSE.txt]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "xssfilter"
+url = "http://spu.tnik.org/lib/xssfilter/"
